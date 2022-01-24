@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_global_header",
+  "info": {
+    "displayName": "Header",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navigation-section"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

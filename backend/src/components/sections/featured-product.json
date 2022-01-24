@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_featured_products",
+  "info": {
+    "displayName": "featuredProduct",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "category"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "purple",
+        "green",
+        "orange",
+        "lightBlue"
+      ],
+      "default": "lightBlue"
+    }
+  }
+}

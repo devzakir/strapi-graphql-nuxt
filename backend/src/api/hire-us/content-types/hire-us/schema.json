@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "hire_uses",
+  "info": {
+    "singularName": "hire-us",
+    "pluralName": "hire-uses",
+    "displayName": "Hire us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.top-feature",
+        "sections.why-us"
+      ]
+    }
+  }
+}

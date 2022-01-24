@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_top_features",
+  "info": {
+    "displayName": "topFeature",
+    "icon": "backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

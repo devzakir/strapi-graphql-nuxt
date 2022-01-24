@@ -1,0 +1,40 @@
+{
+  "name": "template-cookie",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "fragment-generate": "graphql-codegen"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "aos": "^2.3.4",
+    "core-js": "^3.19.3",
+    "countup.js": "^2.0.8",
+    "fs": "^0.0.1-security",
+    "graphql-tag": "^2.12.6",
+    "nuxt": "^2.15.8",
+    "swiper": "5.x",
+    "vue": "^2.6.14",
+    "vue-accordion-menu": "^0.1.46",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-countup-v2": "^4.0.0",
+    "vue-faq-accordion": "^1.6.2",
+    "vue-select": "^3.16.0",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue3-smooth-scroll": "^0.8.1",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.4.0",
+    "@graphql-codegen/fragment-matcher": "^3.2.1",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "postcss": "^8.4.4",
+    "sass": "^1.47.0",
+    "sass-loader": "10.1.1"
+  }
+}

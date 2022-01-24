@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_counters",
+  "info": {
+    "displayName": "counter",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

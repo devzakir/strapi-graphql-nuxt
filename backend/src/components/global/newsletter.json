@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_global_newsletters",
+  "info": {
+    "displayName": "newsletter",
+    "icon": "charging-station",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social_title": {
+      "type": "string"
+    },
+    "social_description": {
+      "type": "text"
+    },
+    "newsletter_title": {
+      "type": "string"
+    },
+    "newsletter_description": {
+      "type": "text"
+    },
+    "social_medias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social-media.social-media"
+    }
+  }
+}
