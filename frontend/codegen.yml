@@ -3,3 +3,5 @@ generates:
   ./graphql/fragmentTypes.json:
     plugins:
       - "fragment-matcher"
+    config:
+      apolloClientVersion: 2

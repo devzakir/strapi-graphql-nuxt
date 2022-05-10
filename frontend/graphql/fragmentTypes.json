@@ -1,56 +1,162 @@
 {
-  "possibleTypes": {
-    "GenericMorph": [
-      "Category",
-      "ComponentGlobalFooter",
-      "ComponentGlobalHeader",
-      "ComponentGlobalNewsletter",
-      "ComponentSectionsFeaturedProduct",
-      "ComponentSectionsHero",
-      "ComponentSectionsLatestProducts",
-      "ComponentSectionsTopFeature",
-      "ComponentSectionsWhyUs",
-      "ComponentSharedButton",
-      "ComponentSharedCounter",
-      "ComponentSharedFeature",
-      "ComponentSharedHirePlan",
-      "ComponentSharedLink",
-      "ComponentSharedNavigationSection",
-      "Global",
-      "HireUs",
-      "Homepage",
-      "I18NLocale",
-      "Page",
-      "Product",
-      "SocialMedia",
-      "SubCategory",
-      "Technology",
-      "UploadFile",
-      "UsersPermissionsPermission",
-      "UsersPermissionsRole",
-      "UsersPermissionsUser"
-    ],
-    "HireUsSectionsDynamicZone": [
-      "ComponentSectionsHero",
-      "ComponentSectionsTopFeature",
-      "ComponentSectionsWhyUs",
-      "Error"
-    ],
-    "HomepageSectionsDynamicZone": [
-      "ComponentSectionsFeaturedProduct",
-      "ComponentSectionsHero",
-      "ComponentSectionsLatestProducts",
-      "ComponentSectionsTopFeature",
-      "ComponentSectionsWhyUs",
-      "Error"
-    ],
-    "PageSectionsDynamicZone": [
-      "ComponentSectionsFeaturedProduct",
-      "ComponentSectionsHero",
-      "ComponentSectionsLatestProducts",
-      "ComponentSectionsTopFeature",
-      "ComponentSectionsWhyUs",
-      "Error"
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "GenericMorph",
+        "possibleTypes": [
+          {
+            "name": "Category"
+          },
+          {
+            "name": "ComponentGlobalFooter"
+          },
+          {
+            "name": "ComponentGlobalHeader"
+          },
+          {
+            "name": "ComponentGlobalNewsletter"
+          },
+          {
+            "name": "ComponentSectionsFeaturedProduct"
+          },
+          {
+            "name": "ComponentSectionsHero"
+          },
+          {
+            "name": "ComponentSectionsLatestProducts"
+          },
+          {
+            "name": "ComponentSectionsTopFeature"
+          },
+          {
+            "name": "ComponentSectionsWhyUs"
+          },
+          {
+            "name": "ComponentSharedButton"
+          },
+          {
+            "name": "ComponentSharedCounter"
+          },
+          {
+            "name": "ComponentSharedFeature"
+          },
+          {
+            "name": "ComponentSharedHirePlan"
+          },
+          {
+            "name": "ComponentSharedLink"
+          },
+          {
+            "name": "ComponentSharedNavigationSection"
+          },
+          {
+            "name": "Global"
+          },
+          {
+            "name": "HireUs"
+          },
+          {
+            "name": "Homepage"
+          },
+          {
+            "name": "I18NLocale"
+          },
+          {
+            "name": "Page"
+          },
+          {
+            "name": "Product"
+          },
+          {
+            "name": "SocialMedia"
+          },
+          {
+            "name": "SubCategory"
+          },
+          {
+            "name": "Technology"
+          },
+          {
+            "name": "UploadFile"
+          },
+          {
+            "name": "UsersPermissionsPermission"
+          },
+          {
+            "name": "UsersPermissionsRole"
+          },
+          {
+            "name": "UsersPermissionsUser"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "HireUsSectionsDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentSectionsHero"
+          },
+          {
+            "name": "ComponentSectionsTopFeature"
+          },
+          {
+            "name": "ComponentSectionsWhyUs"
+          },
+          {
+            "name": "Error"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "HomepageSectionsDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentSectionsFeaturedProduct"
+          },
+          {
+            "name": "ComponentSectionsHero"
+          },
+          {
+            "name": "ComponentSectionsLatestProducts"
+          },
+          {
+            "name": "ComponentSectionsTopFeature"
+          },
+          {
+            "name": "ComponentSectionsWhyUs"
+          },
+          {
+            "name": "Error"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PageSectionsDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentSectionsFeaturedProduct"
+          },
+          {
+            "name": "ComponentSectionsHero"
+          },
+          {
+            "name": "ComponentSectionsLatestProducts"
+          },
+          {
+            "name": "ComponentSectionsTopFeature"
+          },
+          {
+            "name": "ComponentSectionsWhyUs"
+          },
+          {
+            "name": "Error"
+          }
+        ]
+      }
     ]
   }
 }

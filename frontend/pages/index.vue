@@ -423,6 +423,7 @@ export default {
       query: HOMEPAGE_QUERY,
     })
     const homepage = res;
+    console.log(res)
     
     return {homepage}
   },
